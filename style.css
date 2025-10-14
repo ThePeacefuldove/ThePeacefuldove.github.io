@@ -11,6 +11,7 @@ h1 {
   color: palevioletred;
 }
 .question{
+  border-style: dashed;
   color: blueviolet;
   border: 5px;
   border-color: FF1A76;
