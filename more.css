@@ -78,7 +78,8 @@ z-index: 5;
 }
 
 .info-box {
-background-color: f0f9ff;
+/* add # to color */
+background-color: #f0f9ff;
 border-left: 6px solid #3a7ca5;
 padding: 15px;
 margin-top: 20px;
