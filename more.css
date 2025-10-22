@@ -41,12 +41,14 @@ max-width: 900px;
 color: white;
 padding: 30px;
 border-radius: 12px;
-box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-
+box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+/* add px infront of 0 */
+/* remove space */
 position: relative;
 }
 .parent-box {
-position: relative
+  /* add semicolon */
+position: relative;
 background-color: #d8efff;
 padding: 30px;
 margin-top: 25px;
@@ -59,8 +61,10 @@ right: 20px;
 background-color: #9cd0ff;
 padding: 10png;
 border-radius: 6px;
-with: 45%;
-box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+/* miss spell width (with to width) */
+width: 45%;
+/* add px to 0 */
+box-shadow: 0px 2px 6px rgba(0,0,0,0.15);
 }
 
 .sticky-title {
