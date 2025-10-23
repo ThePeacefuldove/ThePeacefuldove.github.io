@@ -22,6 +22,7 @@ background: #c8e8f3;
 color: #2b6777;
 padding: 140px 20px 80px;
 margin-top: -10px;
+/* change 60px to -10px  */
 position: relative;
 z-index: 1;
 }
