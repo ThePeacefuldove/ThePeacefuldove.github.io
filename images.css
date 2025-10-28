@@ -1,4 +1,6 @@
 body {
   /* background-color: beige; */
-  background-image: url(https://www.shutterstock.com/shutterstock/photos/1192228606/display_1500/stock-vector-halloween-pumpkin-pattern-brown-beige-seamless-background-for-textile-wallpapers-and-fabrics-1192228606.jpg);
+  background-image: url(https://www.shutterstock.com/shutterstock/photos/2659562203/display_1500/stock-vector-halloween-pumpkin-patterns-for-backgrounds-fabrics-covers-holiday-wrapping-2659562203.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
