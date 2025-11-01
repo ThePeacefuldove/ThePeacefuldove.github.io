@@ -9,12 +9,15 @@ position: fixed;
 width: 100%;
 background-color: #3a7ca5; 
 color: white; 
-padding: 10px 0px;
+padding: 10px 0;
 z-index: 100; 
 display: flex; 
 justify-content: space-around; 
 align-items: center;
-} 
+margin-left: -10px;
+/* add margin-left -10px to remove unwanted space on the left side */
+
+}
 #hero { 
 text-align: center; 
 background-color: #c8e8f3; 
@@ -46,7 +49,7 @@ position: relative;
 } 
 .parent-box { 
 position: relative;
-/*add semicolon to the end of the line */
+/*add semicolon to the end of the line because it is the symbol use to separate each property in css */
 background-color: #d8efff; 
 padding: 30px; 
 margin-top: 25px; 
@@ -58,10 +61,10 @@ top: 10px;
 right: 20px; 
 background-color: #9cd0ff; 
 padding: 10px; 
-/*change png to px*/
+/*change png to px because it is the correct short term for pixel*/
 border-radius: 6px; 
 width: 45%; 
-/*change with to width*/
+/*change with to width because it is the correct spelling for width*/
 box-shadow: 0 2px 6px rgba(0,0,0,0.15); 
 } 
 .sticky-title { 
@@ -69,14 +72,14 @@ position: sticky;
 top: 70px; 
 background-color: #3a7ca5; 
 color: white; 
-/*change colour to color*/
+/*change colour to color because color is the right spelling of color in css*/
 padding: 10px; 
 border-radius: 8px; 
 z-index: 5; 
 } 
 .info-box { 
 background-color: #f0f9ff;
-/*add semicolon*/
+/* add hashtag to f0f9ff because color codes is required to start with # */
 border-left: 6px solid #3a7ca5; 
 padding: 15px; 
 margin-top: 20px; 
@@ -99,6 +102,6 @@ text-align: center;
 padding: 20px; 
 position: relative; 
 z-index: 10; 
-/*add colon to z-index*/
+/*add colon to z-index because it is required to seperate each the property and the value by a colon*/
 }
 /*add closing curly brace to end the footer style*/
