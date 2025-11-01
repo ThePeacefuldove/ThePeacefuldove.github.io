@@ -101,9 +101,12 @@ margin-top: 10px;
 }
 
 #footer {
+/* add {  */
 background-color: #3a7ca5;
 color: white;
 text-align: center;
 padding: 20px;
 position: relative;
-z-index 10;
+z-index: 10;
+}
+/* add } */
