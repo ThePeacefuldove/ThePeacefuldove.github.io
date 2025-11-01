@@ -16,7 +16,8 @@ align-items: center;
 } 
 #hero { 
 text-align: center; 
-background: #c8e8f3; 
+background-color: #c8e8f3; 
+/*change background to background-color because it's more specific and avoids potential conflicts*/
 color: #2b6777; 
 padding: 140px 20px 80px; 
 margin-top: 60px; 
@@ -34,7 +35,8 @@ font-size: 1.2rem;
 margin: 60px auto; 
 width: 80%; 
 max-width: 900px; 
-color: white; 
+color: black; 
+/* change color white to black because white is not visible on light background */
 padding: 30px; 
 border-radius: 12px; 
 box-shadow: 0 4px 10px rgba(0,0,0,0.1);
@@ -42,7 +44,7 @@ position: relative;
 } 
 .parent-box { 
 position: relative;
-<!--add semicolon to the end of the line-->
+/*add semicolon to the end of the line */
 background-color: #d8efff; 
 padding: 30px; 
 margin-top: 25px; 
@@ -54,10 +56,10 @@ top: 10px;
 right: 20px; 
 background-color: #9cd0ff; 
 padding: 10px; 
-<!--change png to px-->
+/*change png to px*/
 border-radius: 6px; 
 width: 45%; 
-<!--change with to width-->
+/*change with to width*/
 box-shadow: 0 2px 6px rgba(0,0,0,0.15); 
 } 
 .sticky-title { 
@@ -65,20 +67,21 @@ position: sticky;
 top: 70px; 
 background-color: #3a7ca5; 
 color: white; 
-<!--change colour to color-->
+/*change colour to color*/
 padding: 10px; 
 border-radius: 8px; 
 z-index: 5; 
 } 
 .info-box { 
 background-color: #f0f9ff;
-<!--add semicolon--> 
+/*add semicolon*/
 border-left: 6px solid #3a7ca5; 
 padding: 15px; 
 margin-top: 20px; 
 border-radius: 8px; 
 } 
-#fact-card {
+.fact-card {
+  /*change # to . to target fact-card because the class element use dot to target*/
 background-color: #e3f8e0; 
 border: 2px solid #6fc276; 
 padding: 15px; 
@@ -94,6 +97,6 @@ text-align: center;
 padding: 20px; 
 position: relative; 
 z-index: 10; 
-<!--add colon to z-index-->
+/*add colon to z-index*/
 }
-<!--add closing curly brace to end the footer style-->
+/*add closing curly brace to end the footer style*/
