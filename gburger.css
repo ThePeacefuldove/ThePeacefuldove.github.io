@@ -1,9 +1,58 @@
 body {
     background-color: #e7c55b;
 }
-
-.navbar h2 {
-    color:white;
-    font-size: 100px;
+.navbar {
+    position: fixed; 
+    width: 100%;
+    margin-top: -10px;
+    background-color: #e7c55b; 
+    z-index: 100; 
+    display: flex; 
+    margin-left: -10px;  
+    margin-right: -50px;  
 }
-
+.nav-home {
+    margin: 0 380px 0 190px;
+}
+.nav-menu {
+    margin: 0 35px;  
+}
+.nav-story {
+    margin: 0 35px;
+}
+.nav-location {
+    margin: 0 35px;
+}
+a:link {
+    color: white;
+    font-size: 27px;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: #ffe300;
+    text-decoration: underline ;
+}
+.restaurant-image {
+    width: 100%;
+}
+.image-container {
+     position: relative;   
+     display: inline-block; 
+     width: 100%;
+}
+.image-container .bg{ 
+    display: block; 
+    width: 100%;
+    height: auto; 
+}
+.image-container .logo {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 100px;          /* adjust */
+  height: auto;
+  pointer-events: none;  /* allows clicks through the overlay if desired */
+  z-index: 2;
+}
