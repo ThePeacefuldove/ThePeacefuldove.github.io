@@ -30,7 +30,6 @@ body {
     padding: 8px 12px;
 }
 
-/* Optional: if links inside these elements need sizing */
 .navbar a {
     font-size: 28px;
     color: inherit;
@@ -79,6 +78,7 @@ a:hover {
     text-align: center;
     font-weight: 70;
     font-size: 18px;
+    border-bottom: 4px solid rgb(189, 159, 61);
 }
 .restaurant-image {
     display: block;
@@ -87,20 +87,44 @@ a:hover {
     border-radius: 33px;
 }
 .contact-info {
-    padding: 38px 85px;
+    padding: 15px 85px;
     background-color: #f7d785;
     color: white;
     text-align: center;
+    border-top: 6px solid white;
 }
 .contact-info h2 {
     font-weight: 700;
-    font-size: 40px;
+    font-size: 45px;
 }
 .contact-info h3 {
     font-weight: 600;
     font-size: 28px;
+    display: inline-block;
 }
 .contact-info p {
     font-weight: 400l;
     font-size: 20px;
+    display: inline-block;  
 }
+.contact-info .align-left {
+    margin: 0 200px 20px 0;
+}       
+.contact-info .align-right {
+    margin: 0 0 20px 200px;
+}
+.contact-info .left {
+    margin: 0 200px 30px 0;
+}   
+.contact-info .right {
+    margin: 0 0 30px 200px;
+}
+/*code for groundgurgerbar2.html*/
+.name {
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-weight: 1000;
+    font-size: 35px;
+}     
