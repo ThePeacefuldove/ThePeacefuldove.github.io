@@ -5,6 +5,9 @@
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <link href="gburger.css" rel="stylesheet" type="text/css"/>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
         <style>
             body {
                 background-color: #f1dea6;
@@ -12,7 +15,7 @@
         </style>
         </head>
         <body>
-            <div class="navbar" role="navigation">
+            <div id="navbar" role="navigation">
                 <h2><a class="nav-home" href="groundburgerbar.html">HOME</a></h2>
                 <h2><a class="nav-item" href="groundburgerbar2.html">MENU</a></h2>
                 <h2><a class="nav-item" href="#our-story">OUR STORY</a></h2>
@@ -21,22 +24,28 @@
             <div class="image-container">
                 <img class="bg" src="./images/Burger2.webp" alt="Burger image">
                 <img class="logo" src="./images/groundburgerbarlogo.png" alt="Ground Burger Bar Logo">
-                <h1 class="name">BURGER</h1>
+                <h1 class="name2">MENU</h1>
             </div>
-            <div class="name">
+            <div id="burger2">
                 <h1>Burger</h1>
-            <img class="restaurant-image" src="https://images.squarespace-cdn.com/content/v1/54fcbac8e4b061670dd87cc8/1461702719134-QHYZ9ZNVTLSY1QD3D3L2/PKV_7492.jpg?format=1500w" alt="Inside Ground Burger Bar">
+                <div class="burger-item">
+                    <img class="blackandblueburger" src="./images/blackburger.jpg" alt="Black and Blue Burger">
+                    <h3>Black & Blue Burger</h3>
+                </div>
             </div>
-            <div class="contact-info">
+            <div id="contact-info">
                 <h2>ABOUT US</h2>
-                <h3 class="align-left">CONTACT</h3>
-                <h3 class="align-right">LOCATION</h3>
-                <p class="left">info@groundburgerbar.ca<br>
-                (905) 853-1222</p>
-                <p class="right">
-                Newmarket, ON L3Y 3Y9 <br>
-                170 Main St S
-                </p>
+                <div style="display: flex; justify-content: space-around;">
+                    <div>
+                        <h3>CONTACT</h3>
+                        <p>info@groundburgerbar.ca<br>(905) 853-1222</p>
+                    </div>
+                    <div>
+                        <h3>LOCATION</h3>
+                        <p> Newmarket, ON L3Y 3Y9 <br> 170 Main St S</p>
+                    </div>
+                </div>
             </div>
         </body>
     </html>
+    
