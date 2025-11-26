@@ -6,17 +6,24 @@
         <title>Document Title</title>
         <script>
             console.log ("hello");
-        let name = prompt("");
-        console.log(name.length);
+        let name = (prompt());
         if (name.length == 4) {
             if (name[0] == '8' || name[0] == '9') {
                 if (name[3] == '8' || name[3] == '9') {
                     if (name[1] == name[2]) {
-                        console.log("Password is valid");
+                        console.log("SPAM");
+                    } else { 
+                        console.log("pick up!");
                     }
+                } else {
+                    console.log ("pick up!");
                 }
+            } else {
+                console.log ("pickup");
             }
         }
+        
+
         </script>
     </head>
     <body>
